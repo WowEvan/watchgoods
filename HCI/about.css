@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #080101;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* background-color: cyan; */
+}
+
+.navlogo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+}
+
+.navlogo img{
+    width: 100%;
+}
+
+.navhome{
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+
+.navproduct{
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.navabout{
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlocation{
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navcontact{
+    width: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.containerkiri{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: purple; */
+}
+
+.containerkanan{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerkanan img{
+    width: 90%;
+}
+
+.text{
+    width: 80%;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+
+        <div class="navlogo"><img src="assets/logo.png" alt=""></div>
+        <div class="navhome"><a href="index.html">Home</a></div>
+        <div class="navproduct"><a href="product.html">Product</a></div>
+        <div class="navabout"><a href="about.html">About Us</a></div>
+        <div class="navlocation"><a href="location.html">Location</a></div>
+        <div class="navcontact"><a href="contact.html">Contact Us</a></div>
+        
+    </header>
+
+    <div class="container">
+        <div class="containerkiri">
+            <div class="textkiri">
+                
+                <form action="index.html" onsubmit="validateform(event)" id="regis">
+                    <br><h2>Contact Us</h2><br>
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name">
+
+                    <br><br>
+                    <label for="country">Country</label><br>
+                    <input type="text" id="country">
+
+                    <br><br>
+                    <label for="cmail">Email</label><br>
+                    <input type="text" id="email">
+
+                    <br><br>
+                    <input type="checkbox" id="agree">
+                    <label for="agree">Receive a copy of my response</label>
+
+                    <br><br>
+                    <label for="message">Message</label><br>
+                    <input type="text" id="message">
+
+                    <br><br>
+                    <button type="submit">Send</button>
+                    <br><br>
+                </form>
+                <br>
+                
+            </div>
+            <h2 id="error" style="color:white"></h2>
+        </div>
+        <div class="containerkanan">
+            <div class="textkanan">
+                <h2 style="color: white;">Contact</h2>
+                <p>watchgoods@gmail.com</p>
+                <br><br><br>
+
+                <h2 style="color: white;">Based In</h2>
+                <p>Jakarta Barat, <br>
+                    Jakarta, Indonesia</p>
+                <br><br>
+
+                <div class="kotaklogo">
+                    <img src="assets/twitter.png" alt="">
+                    <img src="assets/insta.png" alt="">
+                    <img src="assets/facebook.png" alt="">
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Copyright Reserved WatcHGoods 2023</p>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
